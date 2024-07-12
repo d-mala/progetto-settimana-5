@@ -187,8 +187,11 @@ img.rounded {
 
 .author-box author {
     margin-left: 0.4em;
-    font-weight: 500;
     font-size: 0.8em;
+}
+
+.autor-box author b {
+    font-weight: bold;
 }
 
 .num p {
