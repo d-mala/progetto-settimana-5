@@ -17,17 +17,19 @@ header {
     background-color: #FFC017;
     box-sizing: border-box;
     border-bottom: #000000 1px solid;
+    width: 100%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative; 
+    position: fixed; 
     padding: 20px 10%; 
     top: 0;
     background-color: #FFC017;
     z-index: 100;
+    width: 100%;
 }
 
 .navbar-logo {
@@ -89,7 +91,7 @@ nav::after {
 #banner {
     width: 100%;
     display: flex;
-    /* padding-top: 50px; */
+    padding-top: 80px;
 }
 
 #banner-title {
