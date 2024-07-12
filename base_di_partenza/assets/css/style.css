@@ -239,8 +239,15 @@ img.rounded {
     flex-basis: 60%;
 }
 
+#articles-container {
+    position: relative;
+}
+
 #discover {
     flex-basis: 30%;
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
 }
 
 #article-list article {
@@ -288,11 +295,6 @@ article p {
     background-color: #00000000;
     border: none;
     cursor: pointer;
-}
-
-#discover {
-    position: sticky;
-    top: 0;
 }
 
 #discover aside h2 {
